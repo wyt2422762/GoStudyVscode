@@ -20,8 +20,10 @@ type cat struct { //定义一个结构体 猫
 }
 
 func main() {
-	var a cusInt
-	a = 1
+	/* var a cusInt
+	a = 1 */
+	a := cusInt(1) //同上方注释的等价
+
 	var b cusInt = 2
 	c := a.cusFuncPlus(b)
 	fmt.Printf("a = %d, c= %d\n", a, c)
