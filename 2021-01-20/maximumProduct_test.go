@@ -12,6 +12,9 @@ func TestMaximumProduct(t *testing.T){
 
 	//res := longestCommonPrefix([]string{"flower","flow","flight"})
 
-	longestCommonPrefix([]string{"flower","flow","flight"})
+	//longestCommonPrefix([]string{"flower","flow","flight"})
+
+	longestPalindrome("babad")
+
 	fmt.Println(123)
 }
