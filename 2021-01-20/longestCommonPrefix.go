@@ -21,6 +21,7 @@ func (cs cusStrs) Less(i, j int) bool {
 	return len(cs[i]) < len(cs[j])
 }
 
+//最长公共前缀
 func longestCommonPrefix(strs []string) string {
 	if strs == nil || len(strs) <= 0 {
 		return ""
