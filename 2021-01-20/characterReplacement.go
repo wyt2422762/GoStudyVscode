@@ -48,7 +48,7 @@ func characterReplacement(s string, k int) int {
 		if (end - start) > maxCount+k {
 			//说明替换k个字符无法让[start, end)子字符串为字符都一样的字符串，这是需要让开始index向右移动
 			c = runes[start]
-			map1[c] = map1[1] - 1
+			map1[c] = map1[c] - 1
 			start++
 		}
 
