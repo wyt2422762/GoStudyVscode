@@ -16,7 +16,9 @@ func TestMaximumProduct(t *testing.T){
 
 	//longestPalindrome("babad")
 
-	reverseWords("example   good a")
+	//reverseWords("example   good a")
+
+	characterReplacement("abcdefg", 1)
 
 	fmt.Println(123)
 }
