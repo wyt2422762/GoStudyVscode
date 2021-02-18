@@ -39,7 +39,7 @@ func matrixReshape(nums [][]int, r int, c int) [][]int {
 	res := make([][]int, r) //初始化一个行数为r的二维数组
 	for i := range res {
 		res[i] = make([]int, c) //二维数组的内部是一个长度为c的数组
-		
+
 		for j := range res[i] {
 			res[i][j] = nums[hang][lie]
 
@@ -54,14 +54,14 @@ func matrixReshape(nums [][]int, r int, c int) [][]int {
 	return res
 }
 
-func matrixReshape1(nums [][]int, r int, c int) [][]int {
+func matrixReshape1(nums [][]int, r int, c int) (res [][]int) {
 	rNums, cNums := len(nums), len(nums[0]) //原矩阵的行数, 原矩阵的列数
 
 	if rNums*cNums != r*c {
 		return nums
 	}
 
-	res := make([][]int, r) //初始化一个行数为r的二维数组
+	res = make([][]int, r) //初始化一个行数为r的二维数组
 
 	for i := range res {
 		res[i] = make([]int, c) //二维数组的内部是一个长度为c的数组
