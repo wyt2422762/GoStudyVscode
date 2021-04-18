@@ -18,7 +18,9 @@ func TestMaximumProduct(t *testing.T){
 
 	//reverseWords("example   good a")
 
-	characterReplacement("abaa", 0)
+	//characterReplacement("abaa", 0)
+
+	//reverseWords1("Let's take LeetCode contest")
 
 	fmt.Println(123)
 }
