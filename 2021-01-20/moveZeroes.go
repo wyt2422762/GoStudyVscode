@@ -1,4 +1,4 @@
-package main
+package maximumproduct
 
 import "fmt"
 
@@ -12,10 +12,6 @@ import "fmt"
 // 必须在原数组上操作，不能拷贝额外的数组。
 // 尽量减少操作次数。
 
-func main() {
-	nums := []int{0, 1, 0, 3, 12}
-	moveZeroes(nums)
-}
 
 // 1. 双指针，slow从0开始 fast从1开始
 // 2. 判断slow对应的值是否为0， 不为0，slow++，为0则执行步骤3
