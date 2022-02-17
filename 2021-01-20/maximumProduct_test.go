@@ -22,5 +22,7 @@ func TestMaximumProduct(t *testing.T){
 
 	//reverseWords1("Let's take LeetCode contest")
 
-	fmt.Println(123)
+	nums := qs()
+
+	fmt.Println(nums)
 }
